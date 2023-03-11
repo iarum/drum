@@ -1,17 +1,28 @@
-.parent {
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+body {
+    font-family: 'Climate Crisis', cursive;
+}
+
+.flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
+}
+
+.main {
     position: relative;
 }
 
 #drums {
-    width: 800px;
-    border: 1px solid red;
+    width: 700px;
 }
 
 #stick {
     position: absolute;
-    width: 120px;
+    width: 80px;
+    cursor: grab;
+    transition: 0.1s;
 }
