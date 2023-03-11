@@ -1,0 +1,17 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+#drums {
+    width: 800px;
+    border: 1px solid red;
+}
+
+#stick {
+    position: absolute;
+    width: 120px;
+}
